@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <title>Webinar Data Science 2024</title>
+    <link rel="stylesheet" href="praktikum4.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Webinar Data Science 2024</h1>
+      <nav>
+        <a href="#"> Schedule </a>
+        <a href="#"> Speakers </a>
+        <a href="#"> Register </a>
+        <a href="#"> Resources </a>
+        <a href="#"> Contact Us </a>
+      </nav>
+    </div>
+    <div class="content">
+        <div class="section schedule">
+            <article>
+                <h2 class="judul">Webinar Schedule</h2>
+                <div class="image-container">
+                    <img src="Poster Webinar.png" alt="Poster Webinar" width="400" height="300">
+                </div>
+                <details>
+                    <summary><strong>Day 1 - Introduction to Data Science</strong></summary> 
+                    <p><mark>Keynote:</mark>The Future of Data Science - 10.00 AM</p>
+                    <p>Workshop: Data Analysis with Python - 1.00 PM</p>
+                </details>
+                <details>
+                    <summary><strong>Day 2 - Advanced Data Science Techniques</strong></summary>
+                    <p><mark>Lecture:</mark>Machine Learning - 9.30 AM</p>
+                    <p>Hands-on Session: Deep Learning Applications - 2.00 PM</p>
+                </details>
+            </article>
+        </div>
+        
+      <div class="section register">
+        <h2>Register for the Webinar</h2>
+        <form>
+          <div>
+            <label for="name"> Name: </label>
+            <input
+              id="name"
+              name="name"
+              placeholder="Your Full Name"
+              type="text"
+            />
+          </div>
+          <div>
+            <label for="email"> Email: </label>
+            <input
+              id="email"
+              name="email"
+              placeholder="Your Email"
+              type="email"
+            />
+          </div>
+          <div>
+            <label for="university"> University: </label>
+            <input
+              id="university"
+              name="university"
+              placeholder="Your University"
+              type="university"
+            />
+          </div>
+          <div>
+            <label for="phone"> Phone: </label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Your Phone Number"
+              type="tel"
+            />
+          </div>
+          <div>
+            <label for="ticket"> Ticket Type: </label>
+            <select id="ticket" name="ticket">
+              <option value="" disabled selected>
+                Choose your ticket type
+              </option>
+              <option value="premium">Premium</option>
+              <option value="vip">Vip</option>
+              <option value="standard">Standard</option>
+            </select>
+          </div>
+          <div class="full-width">
+            <label for="info"> Additional Info: </label>
+            <textarea
+              id="info"
+              name="info"
+              placeholder="Enter your message"
+            ></textarea>
+          </div>
+          <div>
+            <label for="newsletter"> Subscribe to Newsletter: </label>
+            <input id="newsletter" name="newsletter" type="checkbox" />
+          </div>
+          <div class="full-width">
+            <label> Payment Method: </label>
+            <div>
+              <input id="credit" name="payment" type="radio" value="credit" />
+              <label for="credit"> Credit Card </label>
+            </div>
+            <div>
+              <input id="paypal" name="payment" type="radio" value="paypal" />
+              <label for="paypal"> PayPal </label>
+            </div>
+          </div>
+          <div class="full-width">
+            <button type="submit">Register</button>
+          </div>
+        </form>
+      </div>
+      <div class="section resources">
+        <h2>Webinar Resources</h2>
+        <div class="media">
+          <audio controls="">
+            <source src="Audio Data Science.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
+          <video controls="" width="320">
+            <source src="Video Data Science.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Contact Us: info@datasciencewebinar.com</p>
+      <p>
+        Follow us on:
+        <a
+          href="https://id.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com%2F"
+        >
+          LinkedIn
+        </a>
+        |
+        <a href="https://x.com/?lang=id"> Twitter </a>
+        |
+        <a href="https://www.youtube.com/"> YouTube </a>
+      </p>
+      <p>© 2024 Webinar Data Science. All Rights Reserved.</p>
+    </div>
+  </body>
+</html>
