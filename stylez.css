@@ -1,0 +1,153 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Styles */
+  .header {
+    position: sticky;
+    top: 0;
+    background-color: #1A237E;
+    color: white;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+  }
+  
+  .header nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Section Styles */
+  .section {
+    padding: 50px 10%;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Schedule Section */
+  .schedule-section h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  
+  .schedule-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .schedule-list {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .schedule-list ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 18px;
+  }
+  
+  .schedule-list li {
+    margin-bottom: 10px;
+  }
+  
+  .schedule-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .schedule-image img {
+    max-width: 300px;
+    height: auto;
+  }
+  
+  /* Register Section Styles */
+  .register-section form {
+    background-color: #e0e0e0;
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  .form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, select, textarea, button {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+    align-items: left;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .checkbox-group {
+    display: block;
+    align-items: left;
+    margin: 5px 0;
+    margin-top: 5px;
+  }
+  
+  .payment-group div {
+    display: flex;
+    align-items: left;
+    margin: 5px 0;
+    margin-top: 5px;
+  }
+  
+  button {
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 20px 0;
+    border-radius: 10px;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  /* Resources Section */
+  .resources-section audio {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #1A237E;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
